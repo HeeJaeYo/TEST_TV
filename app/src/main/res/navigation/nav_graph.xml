@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/liveTvFragment">
+
+    <action
+        android:id="@+id/action_to_liveTv"
+        app:popUpTo="@+id/liveTvFragment"/>
+
+    <action
+        android:id="@+id/action_to_home"
+        app:destination="@id/mainHomeFragment" />
+
+    <action
+        android:id="@+id/action_to_home_clear"
+        app:popUpTo="@id/liveTvFragment" >
+    </action>
+
+    <action
+        android:id="@+id/action_to_detail"
+        app:destination="@+id/detailFragment" />
+
+    <action
+        android:id="@+id/action_to_play_back"
+        app:destination="@+id/playbackFragment" />
+
+    <action
+        android:id="@+id/action_to_header"
+        app:destination="@+id/headerFragment" />
+
+    <action
+        android:id="@+id/action_header_to_home"
+        app:popUpTo="@id/mainHomeFragment"
+        app:popUpToInclusive="true"
+        app:launchSingleTop="true"
+        app:destination="@id/mainHomeFragment"/>
+
+    <atv_fragment
+        android:id="@+id/liveTvFragment"
+        android:name="com.kt.tv_test.fragments.LiveTvFragment"
+        android:label="fragment_live_tv"
+        tools:layout="@layout/fragment_live_tv" >
+
+        <argument
+            android:name="actionHome"
+            app:argType="boolean"
+            android:defaultValue="false" />
+    </atv_fragment>
+    <atv_fragment
+        android:id="@+id/mainHomeFragment"
+        android:name="com.kt.tv_test.fragments.MainHomeFragment"
+        android:label="fragment_main_home"
+        tools:layout="@layout/fragment_main_home" />
+    <atv_fragment
+        android:id="@+id/detailFragment"
+        android:name="com.kt.tv_test.fragments.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
+    <atv_fragment
+        android:id="@+id/headerFragment"
+        android:name="com.kt.tv_test.fragments.HeaderFragment"
+        android:label="fragment_header"
+        tools:layout="@layout/fragment_header" />
+    <atv_fragment
+        android:id="@+id/playbackFragment"
+        android:name="com.kt.tv_test.fragments.PlaybackFragment"
+        android:label="fragment_playback"
+        tools:layout="@layout/fragment_playback" />
+</navigation>

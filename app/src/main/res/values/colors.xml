@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><!--투명도 alpha 값-->
+<!--   100% - FF -->
+<!--   95% - F2 -->
+<!--   90% - E6 -->
+<!--   85% - D9 -->
+<!--   80% - CC -->
+<!--   75% - BF -->
+<!--   70% - B3 -->
+<!--   65% - A6 -->
+<!--   60% - 99 -->
+<!--   55% - 8C -->
+<!--   50% - 80 -->
+<!--   45% - 73 -->
+<!--   40% - 66 -->
+<!--   35% - 59 -->
+<!--   30% - 4D -->
+<!--   25% - 40 -->
+<!--   20% - 33 -->
+<!--   15% - 26 -->
+<!--   10% - 1A -->
+<!--   5% - 0D -->
+<!--   0% - 00 -->
+<resources>
+    <!-- transparent -->
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <!-- black -->
+    <color name="black">#FF000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_10">#1A000000</color>
+    <!--  white  -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_40">#66FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <!--  gray  -->
+    <color name="darkGray_15">#80404040</color>
+
+    <color name="base_black_100">#121212</color>
+    <color name="base_black_90">#e6000000</color>
+    <color name="base_black_80">#cc000000</color>
+    <color name="base_black_30">#4c000000</color>
+    <color name="base_black_20">#33000000</color>
+    <color name="base_black_60">#99000000</color>
+    <color name="base_white_90">#e6ffffff</color>
+    <color name="base_white_100">#ffffff</color>
+    <color name="base_black_10">#19000000</color>
+    <color name="base_white_80">#ccffffff</color>
+    <color name="base_black_40">#66000000</color>
+    <color name="base_black_70">#b3000000</color>
+    <color name="base_black_50">#80000000</color>
+    <color name="base_white_60">#99ffffff</color>
+    <color name="base_white_70">#b3ffffff</color>
+    <color name="base_white_50">#80ffffff</color>
+    <color name="base_white_40">#66ffffff</color>
+    <color name="base_white_30">#4cffffff</color>
+    <color name="base_white_20">#33ffffff</color>
+    <color name="base_white_10">#19ffffff</color>
+    <color name="base_gray_1400">#171717</color>
+    <color name="base_gray_1300">#242424</color>
+    <color name="base_gray_1200">#333333</color>
+    <color name="base_gray_1100">#3d3d3d</color>
+    <color name="base_gray_1000">#555555</color>
+    <color name="base_gray_900">#6f6f6f</color>
+    <color name="base_gray_800">#8b8b8b</color>
+    <color name="base_gray_700">#a5a5a5</color>
+    <color name="base_gray_600">#c1c1c1</color>
+    <color name="base_gray_500">#dfdfdf</color>
+    <color name="base_gray_400">#ececec</color>
+    <color name="base_gray_300">#efefef</color>
+    <color name="base_gray_200">#f5f4f3</color>
+    <color name="base_gray_100">#f7f7f7</color>
+    <color name="tint_red_700">#c30900</color>
+    <color name="tint_red_600">#d71d12</color>
+    <color name="tint_red_500">#eb3126</color>
+    <color name="tint_red_400">#ff453a</color>
+    <color name="tint_red_300">#ff594e</color>
+    <color name="tint_red_200">#ff6d62</color>
+    <color name="tint_blue_700">#004caf</color>
+    <color name="tint_blue_600">#0560c3</color>
+    <color name="tint_blue_500">#1974d7</color>
+    <color name="tint_blue_400">#419cff</color>
+    <color name="tint_blue_300">#55b0ff</color>
+    <color name="tint_blue_200">#69c4ff</color>
+    <color name="tint_yellow_700">#cd9500</color>
+    <color name="tint_yellow_600">#e1a90a</color>
+    <color name="tint_yellow_500">#ebb314</color>
+    <color name="tint_yellow_400">#ffc71e</color>
+    <color name="tint_yellow_300">#f5d128</color>
+    <color name="tint_yellow_200">#ffdb32</color>
+    <color name="tint_green_700">#009b0f</color>
+    <color name="tint_green_600">#0aaf23</color>
+    <color name="tint_green_500">#1ec337</color>
+    <color name="tint_green_400">#28cd41</color>
+    <color name="tint_green_300">#32d74b</color>
+    <color name="tint_green_200">#3ce155</color>
+    <!--  App  -->
+    <color name="focus_color">#FFFFFFFF</color>
+    <color name="dropdown_background">#555555</color>
+
+    <color name="setting_submenu_background">#0cffffff</color>
+
+    <!-- 장은재 추가 -->
+    <color name="base_black_30_dump">#26272b</color>
+
+    <color name="password_digit_color_default">#2d2f3b</color>
+    <color name="password_digit_color_focus">#ffffff</color>
+    <color name="miniepg_background">#d71c1c1c</color>
+    <color name="dca_background">#e6262626</color>
+</resources>
